@@ -57,7 +57,6 @@ jobs:
     name: Deploy on EC2
     runs-on: self-hosted
     needs: scan
-
     steps:
       - name: Deploy latest container
         run: |
